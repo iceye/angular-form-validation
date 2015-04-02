@@ -27,5 +27,18 @@ var registry = {
         max       : 'Пожалуйста укажите число не больше чем {0}',
         pattern   : 'Пожалуйста введите значение в соответствии с указанными требованиями',
         url       : 'Пожалуйста укажите корректный URL адрес'
-    }
+    },
+    'it': {
+		generic   : 'Il valore inserito non &egrave; corretto',
+        required  : 'Questo campo &egrave; obbligatorio',
+        email     : 'Specificare un indirizzo e-mail valido',
+        minlength : 'Inserire un valore di almeno {0} caratteri',
+        maxlength : 'Inserire un valore con una lunghezza massima di {0} caratteri',
+        number    : 'Inserire un valore numerico',
+        min       : 'Inserire un valore numerico maggiore di {0}',
+        max       : 'Inserire un valore numerico minore di {0}',
+        pattern   : 'Inserire un valore come specificato dalle regole',
+        url       : 'Inserire un indirizzo URL valido'
+
+	}
 };
